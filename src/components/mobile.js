@@ -99,7 +99,7 @@ function Mobiles() {
             <MDBCardBody>
               <div className="d-flex justify-content-between">
                 <p className="small">
-                  <Link="/category" className="text-muted">
+                  <Link to="/category" className="text-muted">
                     Mobile Phones
                   </Link>
                 </p>
