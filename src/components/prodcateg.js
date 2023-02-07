@@ -5,7 +5,7 @@ import Test from './test';
 import Mobiles from './mobile'
 import Nav2 from './nav2';
 import Footer from './footer';
-
+import { Link } from 'react-router-dom';
 
 function ProdCateg() {
 
@@ -16,14 +16,14 @@ function ProdCateg() {
        <div className='category'>
         <p className='c-list'>CATEGORIES</p>
                 <div class="list">
-                    <a href="/category">Mobile Phones</a>
-                    <a href="/category">Laptops</a>
-                    <a href="/category">Televisions</a>
-                    <a href="/category">Smartwatches</a>
-                    <a href="/category">Cameras</a>
-                    <a href="/category">Gaming Consoles</a>
-                    <a href="/category">Desktops & Components</a>
-                    <a href="/category">Accessories</a>
+                    <Link to="/category">Mobile Phones</Link>
+                    <Link to="/category">Laptops</Link>
+                    <Link to="/category">Televisions</Link>
+                    <Link to="/category">Smartwatches</Link>
+                    <Link to="/category">Cameras</Link>
+                    <Link to="/category">Gaming Consoles</Link>
+                    <Link to="/category">Desktops & Components</Link>
+                    <Link to="/category">Accessories</Link>
                 </div>
         </div>
         <div className="cat-list">
