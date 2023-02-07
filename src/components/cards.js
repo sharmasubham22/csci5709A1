@@ -12,6 +12,7 @@ import {
 import img from '../images/mb.jpg';
 import img2 from '../images/cam.jpg';
 import img3 from '../images/s23.jpg';
+import { Link } from 'react-router-dom';
 
 function Cards() {
   return (
@@ -28,18 +29,18 @@ function Cards() {
             <MDBCardBody>
               <div className="d-flex justify-content-between">
                 <p className="small">
-                  <a href="/category" className="text-muted">
+                  <Link to="/category" className="text-muted">
                     Laptops
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="d-flex justify-content-between mb-3">
                 <h5 className="mb-0">Macbook Pro 16"</h5>
               </div>
               <div class="d-flex justify-content-between mb-2">
-              <a class="text-muted mb-0" href="/">
+              <Link class="text-muted mb-0" to="/">
                   Click to see full details
-                </a>
+                </Link>
                 <div class="ms-auto text-warning">
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
@@ -63,18 +64,18 @@ function Cards() {
             <MDBCardBody>
               <div className="d-flex justify-content-between">
                 <p className="small">
-                  <a href="/category" className="text-muted">
+                  <Link to="/category" className="text-muted">
                     Cameras
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="d-flex justify-content-between mb-3">
                 <h5 className="mb-0">Canon EOS R5</h5>
               </div>
               <div class="d-flex justify-content-between mb-2">
-              <a class="text-muted mb-0" href="/">
+              <Link class="text-muted mb-0" to="/">
                   Click to see full details
-                </a>
+                </Link>
                 <div class="ms-auto text-warning">
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
@@ -98,18 +99,18 @@ function Cards() {
             <MDBCardBody>
               <div className="d-flex justify-content-between">
                 <p className="small">
-                  <a href="/category" className="text-muted">
+                  <Link to="/category" className="text-muted">
                     Mobile Phones
-                  </a>
+                  </Link>
                 </p>
               </div>
               <div className="d-flex justify-content-between mb-3">
                 <h5 className="mb-0">Samsung S23</h5>
               </div>
               <div class="d-flex justify-content-between mb-2">
-              <a class="text-muted mb-0" href="/">
+              <Link class="text-muted mb-0" to="/">
                   Click to see full details
-                </a>
+                </Link>
                 <div class="ms-auto text-warning">
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
