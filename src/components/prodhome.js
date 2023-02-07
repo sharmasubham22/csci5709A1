@@ -6,6 +6,7 @@ import Cards from './cards';
 import Nav2 from './nav2';
 import Footer from './footer';
 import Mobiles from './mobile';
+import { Link } from 'react-router-dom';
 
 function ProdHome() {
 
@@ -16,7 +17,7 @@ function ProdHome() {
        <div className='category'>
         <p className='c-list'>CATEGORIES</p>
                 <div class="list">
-                    <a href="/category">Mobile Phones</a>
+                    <Link to="/category">Mobile Phones</Link>
                     <a href="/category">Laptops</a>
                     <a href="/category">Televisions</a>
                     <a href="/category">Smartwatches</a>
