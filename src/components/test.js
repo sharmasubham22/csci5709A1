@@ -4,6 +4,7 @@ import img2 from '../images/insta.jpg';
 import img3 from '../images/rog.jpg';
 import '../App.css';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Test() {
   return (
@@ -16,7 +17,7 @@ function Test() {
         />
         <Carousel.Caption>
           <h3>Apple unveils the new iphones line-up.</h3>
-          <a href="/">Click here to see the product specifications.</a>
+          <Link to="/">Click here to see the product specifications.</Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,7 +29,7 @@ function Test() {
 
         <Carousel.Caption>
           <h3>The all new Insta360 action camera!!</h3>
-          <a href="/">Click here to see the product specifications.</a>
+          <Link to="/">Click here to see the product specifications.</Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,7 +41,7 @@ function Test() {
 
         <Carousel.Caption>
           <h3>Gaming Beast - Asus ROG</h3>
-          <a href="/">Click here to see the product specifications.</a>
+          <Link to="/">Click here to see the product specifications.</Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
