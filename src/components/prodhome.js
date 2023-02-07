@@ -18,13 +18,13 @@ function ProdHome() {
         <p className='c-list'>CATEGORIES</p>
                 <div class="list">
                     <Link to="/category">Mobile Phones</Link>
-                    <a href="/category">Laptops</a>
-                    <a href="/category">Televisions</a>
-                    <a href="/category">Smartwatches</a>
-                    <a href="/category">Cameras</a>
-                    <a href="/category">Gaming Consoles</a>
-                    <a href="/category">Desktops & Components</a>
-                    <a href="/category">Accessories</a>
+                    <Link to="/category">Laptops</Link>
+                    <Link to="/category">Televisions</Link>
+                    <Link to="/category">Smartwatches</Link>
+                    <Link to="/category">Cameras</Link>
+                    <Link to="/category">Gaming Consoles</Link>
+                    <Link to="/category">Desktops & Components</Link>
+                    <Link to="/category">Accessories</Link>
                 </div>
         </div>
         <Test/>
